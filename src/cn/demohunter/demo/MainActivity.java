@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 
         findView();
         
-        mTv1.setMyText("dfds[顶]fdsfds");
+        mTv1.setMyText("dfds[顶]fdsfdsdddd");
         mTv2.setMyText("哇哈哈哈[顶]的范德萨发kkjkjkjjj范[哈哈]德萨fdsf[笑]dsfdsf");
     }
 
