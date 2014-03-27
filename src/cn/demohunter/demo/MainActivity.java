@@ -26,16 +26,6 @@ public class MainActivity extends Activity {
 
     Button mBtnGo;
 
-    OnClickListener mClickListener = new OnClickListener() {
-
-        @Override
-        public void onClick(View v) {
-            Intent it = new Intent();
-            it.setClass(MainActivity.this, SecondActivity.class);
-            startActivity(it);
-        }
-    };
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,7 +39,6 @@ public class MainActivity extends Activity {
 
     void findView() {
         mBtnGo = (Button) findViewById(R.id.btn_go);
-        mBtnGo.setOnClickListener(mClickListener);
         
         mTv1 = (MyTextView) findViewById(R.id.tv_test1);
         mTv2 = (MyTextView) findViewById(R.id.tv_test2);
